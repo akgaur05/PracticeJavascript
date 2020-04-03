@@ -1,3 +1,48 @@
-.mainPortfolio{
-    float: right;
-}
+/* #aboutMe {
+    font-family: 'Noticia Text', serif;
+  } */
+  body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+  }
+  .navbar {
+    margin-bottom: 0;
+    background-color: #f3ecea;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: rgb(226, 152, 152) !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+  
+.jumbotron {
+    color: #f5f1f1;
+    font-family: 'Noticia Text', serif;
+  }
+
+  #mainHeading{
+    background-color: #dc6262;
+  }
+
+  #languageList{
+    list-style-type: square;
+    padding: inherit;
+  }
+    #getinTouch{
+        background-color: #e89191;
+        color: #171615;
+    }
+  

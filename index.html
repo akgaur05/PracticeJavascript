@@ -8,34 +8,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <!-- <script src="main.js"></script> -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
 </head>
 
-<body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="./index.html">Akanksha Kapoor</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse mainPortfolio" id="navbarTogglerDemo02">
-                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+   <nav class="navbar navbar-expand-lg navbar-fixed-top">
+        <a class="navbar-brand" href="#myPage">AK</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron text-center" id="mainHeading">
+        <h1>Akanksha Kapoor</h1>
+        <p>Full Stack Developer</p>
     </div>
+    <!-- About me section starts here -->
+    <div id="about" class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2 id="aboutMe">About Me</h2>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-9">
+                        <p>I recently completed <b>Full Stack Developer Certification</b> from UT Austin. </p>
+                        I am a software Developer with 3 years of experience in the software developing field.
+                        <br />
+                        With my experience I have learned:
+                        <ul id="languageList">
+                            <li>Java</li>
+                            <li>HTML</li>
+                            <li>Bootstrap</li>
+                            <li>Javascript</li>
+                            <li>Node.js</li>
+                            <li>React.js</li>
+                            <li>MongoDB</li>
+                            <li>PL/SQL</li>
+                        </ul>
+                        <p> I have been associated with TCS as a Subject Matter Expert for UK business enhancements.
+                            I enjoy being a Lead and the opportunity to empower and motivate my team. Although I loved
+                            my role,
+                            I feel I am now ready for a more challenging assignment. My goal is to build a successful
+                            career
+                            as a Software Developer, which can help my company and me personally.
+                            <br>
+                            I am a good team player and goal oriented.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 ml-auto d-flex align-items-center mt-4 mt-md-0">
+                <div class="card">
+                    <img class="card-img-top" src="assets/images/Akanksha.jpg" alt="Card image cap">
+                </div>
+                <!-- <div class="myPhoto">
+                    <img class="img-fluid" src="assets/images/Akanksha.jpg" alt="Akanksha Kapoor">
+                </div> -->
+            </div>
+        </div>
+        <button class="btn btn-default btn-lg" id="getinTouch">Get in Touch</button>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
